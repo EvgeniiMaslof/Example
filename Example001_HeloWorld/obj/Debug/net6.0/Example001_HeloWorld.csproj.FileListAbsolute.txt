@@ -1,0 +1,15 @@
+D:\Evgenii\GitLesson\Example\Example001_HeloWorld\bin\Debug\net6.0\Example001_HeloWorld.exe
+D:\Evgenii\GitLesson\Example\Example001_HeloWorld\bin\Debug\net6.0\Example001_HeloWorld.deps.json
+D:\Evgenii\GitLesson\Example\Example001_HeloWorld\bin\Debug\net6.0\Example001_HeloWorld.runtimeconfig.json
+D:\Evgenii\GitLesson\Example\Example001_HeloWorld\bin\Debug\net6.0\Example001_HeloWorld.dll
+D:\Evgenii\GitLesson\Example\Example001_HeloWorld\bin\Debug\net6.0\Example001_HeloWorld.pdb
+D:\Evgenii\GitLesson\Example\Example001_HeloWorld\obj\Debug\net6.0\Example001_HeloWorld.csproj.AssemblyReference.cache
+D:\Evgenii\GitLesson\Example\Example001_HeloWorld\obj\Debug\net6.0\Example001_HeloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\Evgenii\GitLesson\Example\Example001_HeloWorld\obj\Debug\net6.0\Example001_HeloWorld.AssemblyInfoInputs.cache
+D:\Evgenii\GitLesson\Example\Example001_HeloWorld\obj\Debug\net6.0\Example001_HeloWorld.AssemblyInfo.cs
+D:\Evgenii\GitLesson\Example\Example001_HeloWorld\obj\Debug\net6.0\Example001_HeloWorld.csproj.CoreCompileInputs.cache
+D:\Evgenii\GitLesson\Example\Example001_HeloWorld\obj\Debug\net6.0\Example001_HeloWorld.dll
+D:\Evgenii\GitLesson\Example\Example001_HeloWorld\obj\Debug\net6.0\refint\Example001_HeloWorld.dll
+D:\Evgenii\GitLesson\Example\Example001_HeloWorld\obj\Debug\net6.0\Example001_HeloWorld.pdb
+D:\Evgenii\GitLesson\Example\Example001_HeloWorld\obj\Debug\net6.0\Example001_HeloWorld.genruntimeconfig.cache
+D:\Evgenii\GitLesson\Example\Example001_HeloWorld\obj\Debug\net6.0\ref\Example001_HeloWorld.dll
