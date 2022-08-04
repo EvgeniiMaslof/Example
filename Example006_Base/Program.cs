@@ -16,4 +16,5 @@ if (weights2 > max) max = weights2;
 if (weights3 > max) max = weights3;
 if (weights4 > max) max = weights4;
 if (weights5 > max) max = weights5;
+Console.Write("Вес самой тяжелой гири: ");
 Console.WriteLine(max);
