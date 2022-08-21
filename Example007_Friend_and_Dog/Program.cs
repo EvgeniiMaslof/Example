@@ -15,7 +15,7 @@ double time = 0;
 
 while (distance > 5)
 {
-    if (friend == 1);
+    if (friend == 1)
     {
         time = distance / (firstFriendSpeed + DogSpeed);
         friend = 2;
