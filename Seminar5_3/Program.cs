@@ -22,10 +22,12 @@ void MaxMin(double [] arr)
         if (min > arr[i]) min = arr[i];
     }
     diff = max - min;
-    Console.WriteLine($"Разница между максимумом и минимумом: {diff}");
+    Console.Write($"максимум: {max} ");
+    Console.Write($"минимум: {min} ");
+    Console.WriteLine($"Разница между максимумом и минимумом: {Math.Round(diff,2)}");
 }
 Console.Write("Введите длину массива: ");
-double length = Convert.ToDouble(Console.ReadLine());
+int length = Convert.ToInt32(Console.ReadLine());
 double[] arr = new double [length];
 random(arr);
 MaxMin(arr);
