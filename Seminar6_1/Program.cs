@@ -3,7 +3,7 @@
 // 0,5 7 -2 -0,2
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
-void random(double [,] arr)
+void СreatingAnArrayOfRealNumbers(double [,] arr)
 {
     for (int i = 0; i < arr.GetLength(0); i++)
     {
@@ -21,4 +21,4 @@ int i = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите количество столбцов: ");
 int j = Convert.ToInt32(Console.ReadLine());
 double [,] arr = new double [i,j];
-random(arr);
+СreatingAnArrayOfRealNumbers(arr);
