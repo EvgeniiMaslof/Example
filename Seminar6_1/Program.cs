@@ -3,7 +3,7 @@
 // 0,5 7 -2 -0,2
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
-void СreatingAnArrayOfRealNumbers(double [,] arr)
+void СreatingAnArrayOfRealNumbers(double [,] arr) // Создает массив мз случайных вещественных чисел.
 {
     for (int i = 0; i < arr.GetLength(0); i++)
     {
