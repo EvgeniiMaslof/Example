@@ -32,7 +32,7 @@ void SearchingForANumberInAnArrayByIndex(int[,] array) //Поиск числа �
       if  (i == rowIndex && j == columnIndex) Console.WriteLine($"{array[i,j]}");
     }
   }
-  if (array.GetLength(1) <= rowIndex & array.GetLength(0) <= columnIndex) Console.WriteLine("Такого значения в массиве нет!");
+  if (array.GetLength(0) <= rowIndex | array.GetLength(1) <= columnIndex) Console.WriteLine("Такого значения в массиве нет!");
 }
 
 Console.Write("Задайте количество строк: ");
@@ -42,4 +42,3 @@ int j = Convert.ToInt32(Console.ReadLine());
 int[,] array = new int [i,j];
 CreatesaTwoDimensionalArray(array);
 SearchingForANumberInAnArrayByIndex(array);
-
