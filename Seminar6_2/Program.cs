@@ -19,20 +19,20 @@ void CreatesaTwoDimensionalArray(int [,] array) // Создает двумерн
   }
 }
 
-void SearchingForANumberInAnArrayByIndex(int [,] array) //Поиск числа в массиве по индексу
+void SearchingForANumberInAnArrayByIndex(int[,] array) //Поиск числа в массиве по индексу
 {
   Console.Write("Задайте индекс строки: ");
   int rowIndex = Convert.ToInt32(Console.ReadLine());
-  Console.Write("Задайте количество столбцов: ");
+  Console.Write("Задайте индекс столбца: ");
   int columnIndex = Convert.ToInt32(Console.ReadLine());
   for (int i = 0; i < array.GetLength(0); i++)
   {
     for (int j = 0; j < array.GetLength(1); j++)
     {
-      if(i == rowIndex && j == columnIndex) Console.WriteLine($"{array[i,j]}");
+      if  (i == rowIndex && j == columnIndex) Console.WriteLine($"{array[i,j]}");
     }
-  }  
-  Console.WriteLine("В заданном массиве такого элемента нет!");
+  }
+  if (array.GetLength(1) <= rowIndex & array.GetLength(0) <= columnIndex) Console.WriteLine("Такого значения в массиве нет!");
 }
 
 Console.Write("Задайте количество строк: ");
