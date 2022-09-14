@@ -8,9 +8,7 @@ Console.Write("Введите расстояние между друзьями: 
 double distance = Convert.ToDouble(Console.ReadLine());
 
 int count = 0;
-
 int friend = 2;
-
 double time = 0;
 
 while (distance > 5)
@@ -20,9 +18,11 @@ while (distance > 5)
         time = distance / (firstFriendSpeed + DogSpeed);
         friend = 2;
     }
-     time = distance / (secondFriendSpeed + DogSpeed);
-     friend = 1;
-     
+    else 
+    {
+        time = distance / (secondFriendSpeed + DogSpeed);
+        friend = 1;
+    } 
    distance = distance - (firstFriendSpeed + secondFriendSpeed) * time;
    count = count + 1;
 }

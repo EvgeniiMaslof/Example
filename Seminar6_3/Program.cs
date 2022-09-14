@@ -5,7 +5,7 @@
 // 8 4 2 4
 // Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 Console.Clear();
-void CreatesaTwoDimensionalArray(int [,] array) // Создает двумерный массив
+void CreatesaTwoDimensionalArray( [,] array) // Создает двумерный массив
 {
   for (int i = 0; i < array.GetLength(0); i++)
   {
@@ -17,7 +17,7 @@ void CreatesaTwoDimensionalArray(int [,] array) // Создает двумерн
     Console.WriteLine("");
   }
 }
-
+void Print()
 void ArithmeticMeanOfArrayColumns(int [,] array)  //Cреднеарифметическое столбцов массива
 {
   double sum = 0;
